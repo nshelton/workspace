@@ -1,4 +1,16 @@
-.{
+body{
+  font-family: sans-serif;
+  padding: 20px;;
+  margin: 20px;
+}
 
-  color: green;
+.craigsCube{
+  float:left;
+  margin:20px;
+  padding:20px;
+  font-size:13px;
+  border: solid 10px #000000;
+  color:#ffffff;
+  text-align:left;
+  vertical-align: middle;;
 }

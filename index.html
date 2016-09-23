@@ -5,15 +5,29 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
 
-  <script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r79/three.min.js"></script>
 
   <script src="scripts.js"></script>
   <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
-  <div id="divResults">
+  <h1>Three Cubes, One Array, Two Ways</h1>
+  <h2>Craigs list style</h2>
+  <h3>Simple html representation of our Cubes array</h3>
 
+  <div id="divResults"></div>
+
+  <div style="clear:both" />
+
+  <h2>3D style</h2>
+  <h3>Simple WebGL representation of our Cubes array using THREE.js</h3>
+  
+  <div id="divThreeJsResults"></div>
+
+  <div id="divThreeJsStats">
   </div>
+
 </body>
 </html>
